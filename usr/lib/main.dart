@@ -228,7 +228,7 @@ class AreaChart extends StatelessWidget {
                             case 3: text = const Text('Apr', style: style); break;
                             default: text = const Text('', style: style); break;
                           }
-                          return SideTitleWidget(axisSide: meta.axisSide, child: text);
+                          return SideTitleWidget(meta: meta, child: text);
                         },
                       ),
                     ),
